@@ -23,7 +23,6 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
           args: >
-            -Dsonar.projectKey=ostad_python_project
+            -Dsonar.projectKey=sonarqubetest
             -Dsonar.sources=.
-            -Dsonar.java.binaries= **/*.java
             -Dsonar.sourceEncoding=UTF-8
