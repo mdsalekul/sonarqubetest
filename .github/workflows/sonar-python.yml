@@ -25,4 +25,5 @@ jobs:
           args: >
             -Dsonar.projectKey=ostad_python_project
             -Dsonar.sources=.
+            -Dsonar.java.binaries= **/*.java
             -Dsonar.sourceEncoding=UTF-8
